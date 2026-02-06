@@ -28,3 +28,12 @@ You need:
 4) gate sets (hard/soft) with hysteresis,
 5) bounded repair actions (rails),
 6) receipts (for proofs-by-audit).
+
+## Optional Lean check
+If Lean is installed, you can run:
+
+```
+./scripts/check_lean_smallgain.sh
+```
+
+This verifies the small-gain lemma in `lean/SmallGain.lean`.
