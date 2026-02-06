@@ -19,6 +19,7 @@ Coherence in this specification is an **operational, measurable, auditable gover
 - [11 Failure Modes and Recovery](docs/11_Failure_Modes_and_Recovery.md)
 - [12 Glossary and Lexicon](docs/12_Glossary_and_Lexicon.md)
 - [13 Bridge Notes (Time/GR/PDE/AI)](docs/13_Bridge_Notes_Time_GR_PDE_AI.md)
+- [14 Coherence Governance Kernel](docs/14_Coherence_Governance_Kernel.md)
 - Schemas: [coherence receipt](schemas/coherence_receipt.schema.json), [gate policy](schemas/gate_policy.schema.json), [run certificate](schemas/run_certificate.schema.json)
 - Examples: [receipt](examples/receipt.example.json), [gate policy](examples/gate_policy.example.json), [certificate](examples/certificate.example.json)
 - [Manifest](manifest/manifest.md)
