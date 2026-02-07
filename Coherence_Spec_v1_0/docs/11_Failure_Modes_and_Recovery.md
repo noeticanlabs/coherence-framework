@@ -1,3 +1,11 @@
+---
+title: "Failure Modes and Recovery"
+description: "Taxonomy of failure modes, symptom mapping, and recovery policies for coherence systems"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "failure-modes", "recovery", "operational"]
+---
+
 # 11 Failure Modes and Recovery
 
 ## Failure Mode Taxonomy

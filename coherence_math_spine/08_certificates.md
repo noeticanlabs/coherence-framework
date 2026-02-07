@@ -1,3 +1,11 @@
+---
+title: "Certificates"
+description: "Inequality certificates, SOS, interval bounds, small-gain, and trace certificates"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "certificates", "proof", "sos", "verification"]
+---
+
 # Certificates (What Counts as Proof in a Governed System)
 
 In coherence engineering, a “certificate” is a compact artifact that can be checked mechanically.

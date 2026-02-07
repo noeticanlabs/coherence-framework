@@ -1,3 +1,11 @@
+---
+title: "Coherence Lemmas (Operational)"
+description: "Operational lemmas including Affordability Gate, No-Smuggling, Anti-Chatter, Termination, and Replay"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "lemmas", "operational", "verification"]
+---
+
 # 07 Coherence Lemmas (Operational)
 
 Each lemma includes preconditions and a measurable conclusion. Each lemma must map to a CI test.

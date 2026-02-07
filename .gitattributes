@@ -1,0 +1,21 @@
+# Git Line Ending Normalization
+
+# Set default behavior for all files
+* text=auto eol=lf
+
+# Force specific file types to use LF
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

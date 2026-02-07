@@ -1,3 +1,11 @@
+---
+title: "Residual Maps"
+description: "Definition and examples of residual maps for physics, constraints, balance, and semantic defects"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "residual-maps", "defects", "physics", "semantics"]
+---
+
 # Residual Maps
 
 ## Definition (Residual map)

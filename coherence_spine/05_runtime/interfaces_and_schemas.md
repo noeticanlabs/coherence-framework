@@ -1,3 +1,11 @@
+---
+title: "Interfaces and Schemas (L4)"
+description: "Language-agnostic interfaces and JSON schemas for state, model, gates, rails, and receipts"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "interfaces", "schemas", "api", "runtime"]
+---
+
 # Interfaces and Schemas (L4)
 
 ## Minimal interfaces (language-agnostic)

@@ -1,3 +1,11 @@
+---
+title: "Receipt to Theorem Assumptions Mapping"
+description: "Binding formal math assumptions to concrete receipt fields for runtime proof checking"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "receipts", "theorems", "mapping", "verification"]
+---
+
 # Receipt → Theorem Assumptions Mapping
 
 This table binds formal assumptions in the math spine to concrete receipt fields so proofs can be checked from runtime artifacts.

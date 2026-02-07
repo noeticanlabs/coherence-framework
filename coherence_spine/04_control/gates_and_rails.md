@@ -1,3 +1,11 @@
+---
+title: "Gates and Rails (L2)"
+description: "Hard and soft gates, hysteresis, and bounded corrective rail actions"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "gates", "rails", "control", "enforcement"]
+---
+
 # Gates and Rails (L2)
 
 This is where Coherence becomes behavior.

@@ -1,3 +1,11 @@
+---
+title: "03 Axioms and Postulates"
+description: "CANON axioms (required) and BRIDGE postulates (optional/hypothesis) for coherence"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "axioms", "postulates", "canon", "bridge"]
+---
+
 # 03 Axioms and Postulates
 
 ## CANON Axioms (required)

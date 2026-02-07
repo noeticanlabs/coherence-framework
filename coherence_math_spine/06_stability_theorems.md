@@ -1,3 +1,11 @@
+---
+title: "Stability Theorems for Coherence Enforcement"
+description: "Theorems on hard invariants, bounded work, debt boundedness, and coherence persistence"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "stability", "theorems", "invariants", "persistence"]
+---
+
 # Stability Theorems for Coherence Enforcement
 
 ## Assumptions

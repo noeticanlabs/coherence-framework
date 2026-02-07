@@ -1,3 +1,11 @@
+---
+title: "Debt Functionals and Coercivity"
+description: "Debt functional definitions, decomposition, coercivity, and Lyapunov-augmented coherence"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "debt", "functionals", "coercivity", "lyapunov"]
+---
+
 # Debt Functionals and Coercivity
 
 ## Definition (Debt)

@@ -1,3 +1,11 @@
+---
+title: "Coherence Definitions (L0→L2)"
+description: "Core definitions for residuals, debt, gates, rails, and receipts"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "definitions", "residuals", "debt", "gates", "rails"]
+---
+
 # Coherence Definitions (L0 → L2)
 
 ## 1) Residual vector

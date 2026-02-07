@@ -1,3 +1,11 @@
+---
+title: "Coherence Functionals (L1)"
+description: "Standardized coherence measures including debt functionals and Lyapunov-augmented coherence"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "functionals", "debt", "lyapunov", "measurement"]
+---
+
 # Coherence Functionals (L1)
 
 This file standardizes reusable coherence measures across domains.

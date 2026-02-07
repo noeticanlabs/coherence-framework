@@ -1,0 +1,21 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: remove-crlf
+
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: v0.35.0
+    hooks:
+      - id: markdownlint
+        files: \.md$
+
+  - repo: https://github.com/pre-commit/mirrors-jsonlint
+    rev: v0.1.0
+    hooks:
+      - id: jsonlint
+        files: \.json$

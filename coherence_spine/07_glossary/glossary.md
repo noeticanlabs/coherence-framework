@@ -1,3 +1,11 @@
+---
+title: "Glossary (Canonical)"
+description: "Canonical definitions of core coherence terms: residuals, debt, gates, rails, receipts, and hash chains"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "glossary", "definitions", "terms"]
+---
+
 # Glossary (Canonical)
 
 **Coherence** — persistence of identity under evolution, quantified by residuals and enforced by gates.

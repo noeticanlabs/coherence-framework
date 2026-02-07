@@ -1,3 +1,11 @@
+---
+title: "Coherence Axioms (L0)"
+description: "Core axioms defining the persistence contract for coherent systems"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "axioms", "persistence-contract", "foundations"]
+---
+
 # Coherence Axioms (L0)
 
 Coherence is a **persistence contract**: a system persists as “itself” iff its

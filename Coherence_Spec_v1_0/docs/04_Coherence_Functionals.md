@@ -1,3 +1,11 @@
+---
+title: "04 Coherence Functionals"
+description: "Required diagnostic vector and scalar debt outputs per step with canonical decomposition"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "functionals", "debt", "diagnostics", "normalization"]
+---
+
 # 04 Coherence Functionals
 
 ## Required Outputs per Step

@@ -1,3 +1,11 @@
+---
+title: "Lemmas and Theorems (L1→L5)"
+description: "Engineering theorems for bounded retries, debt boundedness, and coherence persistence"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "theorems", "lemmas", "bounded-retries", "stability"]
+---
+
 # Lemmas and Theorems (L1 → L5)
 
 These are **engineering theorems**: they become enforceably true when their

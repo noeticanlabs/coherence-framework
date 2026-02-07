@@ -1,3 +1,11 @@
+---
+title: "Gates, Rails, and Affordability"
+description: "Operational specification for hard/soft gates, bounded rail mitigations, and acceptance semantics"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "gates", "rails", "affordability", "operational"]
+---
+
 # 06 Gates, Rails, and Affordability
 
 ## Gates

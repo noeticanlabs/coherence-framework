@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Run pytest on coherence_spine/06_validation/
+        run: |
+          pytest coherence_spine/06_validation/ -v
+
+      - name: Validate JSON schemas
+        run: |
+          # Check that all JSON files are valid
+          for f in $(find Coherence_Spec_v1_0/schemas -name "*.json"); do
+            echo "Validating: $f"
+            python -c "import json; json.load(open('$f'))" || exit 1
+          done
+          echo "All JSON schemas are valid"
+
+      - name: Validate YAML manifests
+        run: |
+          pip install pyyaml
+          # Check manifest files
+          for f in coherence_spine/00_manifest.yaml coherence_math_spine/00_manifest.yaml; do
+            if [ -f "$f" ]; then
+              echo "Validating: $f"
+              python -c "import yaml; yaml.safe_load(open('$f'))" || exit 1
+            fi
+          done
+          echo "All YAML manifests are valid"
+
+      - name: Check Markdown files with markdownlint
+        run: |
+          # Check root README and key documentation files
+          markdownlint README.md coherence_spine/README.md coherence_math_spine/README.md Coherence_Spec_v1_0/README.md --disable MD013 MD014

@@ -1,5 +1,157 @@
+# Coherence Framework
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](pyproject.toml)
+[![CI Status](https://img.shields.io/badge/CI-In%20Progress-orange)](.github/workflows/ci.yml)
+[![Lean Proofs](https://img.shields.io/badge/Lean-Proofs-green)](coherence_math_spine/lean/SmallGain.lean)
+
 A Unifying Principle of Coherence-Governed Evolution
 Proof-Carrying Governance Across Physics, Computation, Language, and Cognition
+
+---
+
+## Quick Links
+
+- 📘 **[coherence_spine](/coherence_spine/)** - Core framework documentation and validation tests
+- 🔢 **[coherence_math_spine](/coherence_math_spine/)** - Mathematical formalization and Lean proofs
+- 📋 **[Coherence_Spec_v1_0](/Coherence_Spec_v1_0/)** - JSON schemas and specification documents
+- 🧪 **[Tests](/coherence_spine/06_validation/)** - Python validation tests
+- 📜 **[API Reference](/COHERENCE_INDEX.md)** - Generated documentation index
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10 or higher
+- Lean 4 (for mathematical proofs)
+- pre-commit hooks (optional, for development)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/coherence-framework/coherence-framework.git
+cd coherence-framework
+
+# Install development dependencies
+pip install -r requirements-dev.txt
+
+# Install pre-commit hooks (optional)
+pre-commit install
+```
+
+### Running Tests
+
+```bash
+# Run Python validation tests
+pytest coherence_spine/06_validation/
+
+# Validate JSON schemas
+python -c "import json; json.load(open('Coherence_Spec_v1_0/schemas/coherence_receipt.schema.json'))"
+
+# Check Lean proofs
+cd coherence_math_spine/lean && lake build
+```
+
+---
+
+## Project Structure
+
+```
+coherence-framework/
+├── .github/workflows/
+│   ├── ci.yml              # Main CI pipeline (Python tests, JSON/YAML validation)
+│   └── lean.yml            # Lean proof verification pipeline
+├── coherence_spine/               # Core framework documentation
+│   ├── 01_principle/              # Axioms and definitions
+│   ├── 02_math/                   # Coherence functionals and theorems
+│   ├── 03_measurement/            # Residuals, metrics, telemetry
+│   ├── 04_control/                # Gates, rails, scheduler
+│   ├── 05_runtime/                # Interfaces, schemas, implementations
+│   ├── 06_validation/             # Python tests
+│   │   ├── minimal_tests.py
+│   │   ├── test_coherence_*.py
+│   │   └── test_plan.md
+│   ├── 07_glossary/               # Terminology
+│   └── 08_appendix/               # References
+├── coherence_math_spine/          # Mathematical formalization
+│   ├── lean/                      # Lean 4 proof files
+│   │   └── SmallGain.lean
+│   ├── 00_manifest.yaml
+│   └── README.md
+├── Coherence_Spec_v1_0/           # JSON schemas and specification
+│   ├── docs/                      # Formal documentation
+│   ├── examples/                  # JSON examples
+│   ├── manifest/                  # Manifest documentation
+│   ├── schemas/                   # JSON Schema files
+│   └── README.md
+├── scripts/                       # Utility scripts
+│   └── check_lean_smallgain.sh
+├── COHERENCE_INDEX.md             # Documentation index
+├── README.md                      # This file
+├── pyproject.toml                 # Python project configuration
+└── requirements-dev.txt           # Development dependencies
+```
+
+---
+
+## Related Spines
+
+The Coherence Framework is organized into three complementary spines:
+
+### 1. coherence_spine
+
+The **core documentation spine** containing the conceptual framework, governance principles, and validation tests. This spine provides the narrative and conceptual foundation for coherence-governed evolution.
+
+**Key components:**
+- Principle and axioms (`01_principle/`)
+- Mathematical foundations (`02_math/`)
+- Measurement and telemetry (`03_measurement/`)
+- Control mechanisms (`04_control/`)
+- Runtime interfaces (`05_runtime/`)
+
+### 2. coherence_math_spine
+
+The **mathematical formalization spine** containing rigorous definitions, theorems, and Lean 4 proofs. This spine provides the formal, machine-verifiable foundation for the framework.
+
+**Key components:**
+- State spaces and notation
+- Residual maps and debt functionals
+- Gated dynamics
+- Stability theorems
+- SmallGain proof (Lean 4)
+
+### 3. Coherence_Spec_v1_0
+
+The **specification spine** containing JSON schemas, examples, and reference documentation. This spine provides the machine-readable specifications for implementing the framework.
+
+**Key components:**
+- JSON schemas (receipts, gate policies, certificates)
+- Example JSON documents
+- Formal definitions and axioms
+- Algorithm specifications
+
+**Relationship:** The three spines form a consistent, multi-layered representation where `Coherence_Spec_v1_0` provides the implementation interface, `coherence_math_spine` provides the formal verification, and `coherence_spine` provides the conceptual guidance.
+
+---
+
+## Citation
+
+If you use the Coherence Framework in your research, please cite it as follows:
+
+```bibtex
+@misc{coherence-framework,
+  author = {Coherence Framework Maintainers},
+  title = {A Unifying Principle of Coherence-Governed Evolution},
+  url = {https://github.com/coherence-framework/coherence-framework},
+  year = {2024},
+  note = {Proof-Carrying Governance Across Physics, Computation, Language, and Cognition}
+}
+```
+
+---
 
 0. Executive Summary
 

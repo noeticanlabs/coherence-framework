@@ -1,0 +1,11 @@
+# Development dependencies for Coherence Framework
+
+# Testing
+pytest>=7.0.0
+
+# Git hooks
+pre-commit>=3.0.0
+
+# Schema validation
+markdownlint-cli>=0.30.0
+jsonlint>=1.8.0

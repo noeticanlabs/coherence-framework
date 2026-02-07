@@ -1,3 +1,11 @@
+---
+title: "01 Coherence Principle"
+description: "Canonical statement of the coherence principle with budget, transport, and governance laws"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "principle", "budget", "transport", "governance"]
+---
+
 # 01 Coherence Principle
 
 ## Canonical Statement

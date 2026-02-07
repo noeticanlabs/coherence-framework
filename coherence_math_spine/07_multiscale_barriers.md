@@ -1,3 +1,11 @@
+---
+title: "Multiscale Barriers"
+description: "Template for cascade prevention using dyadic decomposition and slab induction"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "multiscale", "barriers", "cascade", "induction"]
+---
+
 # Multiscale Barriers (Dyadic Tails + Slab Induction Template)
 
 This section gives a reusable template for “preventing cascade” arguments:

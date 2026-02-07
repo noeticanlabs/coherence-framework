@@ -1,3 +1,11 @@
+---
+title: "Glossary and Lexicon"
+description: "Canonical terms and definitions for Coherence framework including CANON and BRIDGE concepts"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "glossary", "lexicon", "definitions"]
+---
+
 # 12 Glossary and Lexicon
 
 ## Canonical Terms

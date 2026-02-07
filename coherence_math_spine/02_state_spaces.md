@@ -1,3 +1,11 @@
+---
+title: "State Spaces and Invariants"
+description: "Metric, normed, and manifold formulations with hard invariant definitions"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "state-spaces", "invariants", "manifolds", "metrics"]
+---
+
 # State Spaces and Invariants
 
 This spine works with any of the following, provided you state which case you’re in.

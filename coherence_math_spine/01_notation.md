@@ -1,3 +1,11 @@
+---
+title: "Notation"
+description: "Standard notation for state spaces, residual maps, debt functionals, and gate sets"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "notation", "mathematics", "notation-reference"]
+---
+
 # Notation
 
 ## Spaces and norms

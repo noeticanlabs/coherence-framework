@@ -1,3 +1,11 @@
+---
+title: "Receipts, Ledgers, and Certificates"
+description: "Specification for receipt structure, hash chaining, run certificates, and replay requirements"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "receipts", "ledgers", "certificates", "audit"]
+---
+
 # 09 Receipts, Ledgers, and Certificates
 
 ## Receipt Required Fields

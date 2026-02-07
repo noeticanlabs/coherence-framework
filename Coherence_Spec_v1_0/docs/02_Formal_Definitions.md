@@ -1,3 +1,11 @@
+---
+title: "02 Formal Definitions"
+description: "Formal definitions of state, residuals, debt, gates, hysteresis, rails, and accepted steps"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "definitions", "formal", "state", "residuals"]
+---
+
 # 02 Formal Definitions
 
 ## State and Levels

@@ -1,3 +1,11 @@
+---
+title: "Bridge Notes (Time / GR / PDE / AI)"
+description: "Unverified bridge hypotheses connecting coherence to physics concepts with verification paths"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "bridge", "physics", "hypotheses", "unverified"]
+---
+
 # 13 Bridge Notes (Time / GR / PDE / AI)
 
 ## BRIDGE/UNVERIFIED Hypotheses

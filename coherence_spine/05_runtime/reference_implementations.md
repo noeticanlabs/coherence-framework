@@ -1,3 +1,11 @@
+---
+title: "Reference Implementations (L4)"
+description: "Canonical gated step loop pseudocode for implementers"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "implementation", "algorithm", "reference", "runtime"]
+---
+
 # Reference Implementations (L4)
 
 This is implementation-grade pseudocode: fully specified, language-agnostic.

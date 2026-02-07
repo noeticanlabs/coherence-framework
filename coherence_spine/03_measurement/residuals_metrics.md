@@ -1,3 +1,11 @@
+---
+title: "Residuals and Metrics (L1→L2)"
+description: "Standardized residual blocks for physics, constraints, conservation, evidence, and operations"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "residuals", "metrics", "measurement", "physics"]
+---
+
 # Residuals and Metrics (L1–L2)
 
 This standardizes what gets measured so enforcement is portable.

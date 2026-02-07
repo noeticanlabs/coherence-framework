@@ -1,3 +1,11 @@
+---
+title: "Gated Dynamics as a Hybrid System"
+description: "Modeling coherence enforcement as a hybrid dynamical system with gates and bounded rails"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "gated-dynamics", "hybrid-systems", "control"]
+---
+
 # Gated Dynamics as a Hybrid System
 
 We model coherence enforcement as a **hybrid dynamical system**:

@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# LaTeX/Lean
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+.lean_package/
+leanpkg.path
+
+# Build artifacts
+*.o
+*.a
+*.obj
+*.so.1
+*.dylib
+
+# Temporary files
+*.tmp
+*.bak
+*~
+\#*#

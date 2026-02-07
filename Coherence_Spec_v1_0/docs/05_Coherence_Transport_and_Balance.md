@@ -1,3 +1,11 @@
+---
+title: "05 Coherence Transport and Balance"
+description: "Discrete balance equation for coherence change with optional continuous transport form"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "transport", "balance", "discrete", "continuous"]
+---
+
 # 05 Coherence Transport and Balance
 
 ## Discrete Balance (CANON)

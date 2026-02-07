@@ -1,3 +1,11 @@
+---
+title: "Examples"
+description: "Complete minimal examples: ODE with gated stepping, constraint projection, semantic coherence"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "examples", "tutorial", "ode", "constraints"]
+---
+
 # Examples (Complete, Minimal)
 
 ## Example 1 — Stable ODE with gated stepping

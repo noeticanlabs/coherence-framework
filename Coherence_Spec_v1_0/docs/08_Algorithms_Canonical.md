@@ -1,3 +1,11 @@
+---
+title: "Algorithms (Canonical)"
+description: "Canonical algorithms including Banker Algorithm for accept/retry/abort and Repair/Projection algorithms"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "algorithms", "canonical", "implementation"]
+---
+
 # 08 Algorithms (Canonical)
 
 ## Rail Priority Policy (default)

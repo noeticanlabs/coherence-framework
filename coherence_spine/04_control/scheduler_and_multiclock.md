@@ -1,3 +1,11 @@
+---
+title: "Scheduler and Multi-Clock Time (L2)"
+description: "Multi-clock time stepping with debt-aware adaptation and coherence time dilation"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "scheduler", "multiclock", "time-stepping", "adaptation"]
+---
+
 # Scheduler and Multi-Clock Time (L2)
 
 ## Multi-clock rule

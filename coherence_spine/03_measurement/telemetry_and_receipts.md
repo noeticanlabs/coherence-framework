@@ -1,3 +1,11 @@
+---
+title: "Telemetry and Receipts (L2→L4)"
+description: "Telemetry requirements, receipt schema, and hash chaining for audit trails"
+last_updated: "2026-02-07"
+authors: ["Coherence Framework Authors"]
+tags: ["coherence", "telemetry", "receipts", "audit", "hash-chain"]
+---
+
 # Telemetry and Receipts (L2–L4)
 
 Telemetry is the sensor layer; receipts are the audit layer.
